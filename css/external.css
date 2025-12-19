@@ -1,0 +1,574 @@
+.topbar {
+    background-image: url(../img/header-background-scaledjpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 25vh;
+
+
+}
+
+.icon {
+    /* width: 70%; */
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+
+
+    &:hover {
+        >i {
+            color: #F05860;
+        }
+    }
+
+
+    >i {
+        width: 25%;
+        align-items: center;
+        justify-content: center;
+        font-size: 45px;
+        color: white;
+        transition: 1s;
+
+
+
+    }
+}
+
+.second {
+    background-color: #45152A;
+    height: 10vh;
+}
+
+nav {
+
+    >ul {
+
+
+        >li {
+            position: relative;
+
+
+            >a {
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+
+                &:hover {
+                    >i {
+                        color: #F05860;
+                    }
+
+                    &::after {
+                        width: 100%;
+                    }
+                }
+
+
+
+                >i {
+                    transition: 1s;
+
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    display: flex;
+                    width: 0px;
+                    height: 2px;
+                    background-color: #F05860;
+                    top: 35px;
+                    left: 0;
+                    transition: 0.4s;
+                }
+            }
+
+
+
+        }
+    }
+}
+
+.slide {
+    background-image: url(../img/hero-background-full-scaledjpg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+
+    >div {
+
+
+        >* {
+            font-family: 'Playfair Display', serif;
+            text-transform: uppercase;
+        }
+
+        >h2 {}
+
+        >h3 {}
+
+        >.bottun {
+
+
+
+
+            &:hover {
+
+                >a {
+                    background-color: #F05860;
+                }
+            }
+
+            >a {
+                font-family: 'Playfair Display', serif;
+                transition: 1s;
+                background-color: #45152A;
+                transition: 1s;
+
+
+                >i {}
+
+
+            }
+
+        }
+
+    }
+
+
+}
+
+.third {
+    background-color: #45152A;
+    height: 15vh;
+
+
+}
+
+.parent {
+    margin-top: -80px;
+    position: relative;
+    z-index: 2;
+}
+
+.back {
+
+    background-image: url(../img/calltoaction-backgroundjpg.jpg);
+    border-radius: 12%;
+    padding: 24px 16px;
+    position: relative;
+
+    >h4 {
+        font-family: 'Playfair Display', serif;
+        font-size: 30px;
+        color: #45152A;
+
+
+
+
+    }
+
+    >figure {
+        &:hover {
+            >img {
+                scale: 1.2;
+            }
+
+            >figcaption {
+                background-color: #F05860;
+            }
+        }
+
+        >img {
+            transition: 1s;
+            width: 70%;
+            max-width: 240px;
+            object-fit: contain;
+
+        }
+
+        >figcaption {
+            background-color: #45152A;
+            height: 5vh;
+            /* position: absolute; */
+            bottom: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 1s;
+
+            >h5 {
+                color: white;
+                font-size: 20px;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+    }
+
+
+
+
+
+
+}
+
+.title {
+    >* {
+        font-family: 'Playfair Display', serif;
+        text-transform: capitalize;
+
+    }
+
+    >h3 {
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    >h4 {
+        font-size: 35px;
+        font-weight: 300px;
+
+    }
+}
+
+.gallery {
+    >figure {
+        >img {
+            width: 100%;
+            max-width: 260px;
+
+        }
+
+        >figcaption {
+            >* {
+                font-family: 'Playfair Display', serif;
+                text-transform: capitalize;
+
+            }
+
+            >span {
+                font-size: 25px;
+                color: #45152A;
+            }
+
+            >h5 {
+                font-size: 15px;
+                color: black
+            }
+
+            >h6 {
+                font-size: 15px;
+                color: #F05860;
+            }
+        }
+    }
+}
+
+.bg {
+    background-image: url(../img/subscribe-background-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+    >form {
+        &:hover {
+            >input {
+                outline: #45152A;
+            }
+
+        }
+
+        >input {
+            width: 100%;
+            max-width: 420px;
+            height: 8vh;
+            position: relative;
+            top: -150px;
+            outline: 0;
+            transition: 0.1s;
+
+        }
+
+        >div {
+            position: relative;
+            top: -100px;
+
+            &:hover {
+                >a {
+                    background-color: #F05860;
+                }
+            }
+
+            >a {
+                font-family: 'Playfair Display', serif;
+                transition: 1s;
+                background-color: #45152A;
+                transition: 1s;
+            }
+        }
+    }
+
+
+}
+
+.titr {
+    position: relative;
+    top: 100px;
+    z-index: 5;
+
+
+    >* {
+        font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+
+    }
+
+    >h4 {
+        font-size: 25px;
+        font-weight: lighter;
+
+    }
+
+    >h5 {
+        font-size: 35px;
+        font-weight: 400;
+        color: #45152A;
+
+
+    }
+
+    >p {
+        font-size: 17px;
+        font-weight: 100;
+
+    }
+}
+
+.ax {
+    background-image: url(../img/vineyard-tours-background-scaled.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+
+    >div {
+        /* width: 50%; */
+        position: relative;
+        top: 100px;
+        margin-left: 20px;
+
+        /* min-width: 200px; */
+        >* {
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+
+        }
+
+        >h4 {
+            font-size: 20px;
+            font-weight: lighter;
+
+        }
+
+        >h5 {
+            font-size: 40px;
+            font-weight: 400;
+
+
+
+        }
+
+        >p {
+            font-size: 17px;
+            font-weight: 100;
+
+        }
+
+
+    }
+
+    .botn {
+        &:hover {
+            >a {
+                background-color: #F05860;
+            }
+        }
+
+        >a {
+            font-family: 'Playfair Display', serif;
+            transition: 1s;
+            background-color: #45152A;
+            transition: 1s;
+            font-size: 15px;
+        }
+    }
+
+
+}
+
+.tit {
+
+    margin-top: 100px;
+
+
+    >* {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        color: #45152A;
+
+
+    }
+
+    >h4 {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    >h5 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+}
+
+.albom {
+    >figure {
+        >img {
+            width: 100%;
+            max-width: 350px;
+            object-fit: contain;
+            margin-top: 5px;
+        }
+
+        >figcaption {
+            >span {
+                font-family: 'Montserrat', sans-serif;
+                text-transform: uppercase;
+                color: #45152A;
+                font-size: 15px;
+                font-weight: 400;
+
+            }
+        }
+    }
+}
+
+.foter {
+    background-image: url(../img/header-background-scaledjpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+
+    >.containerr {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 200px;
+
+        &:hover {
+            >.box {
+                >.ax {
+                    transform: translate(-10px, -10px);
+
+                }
+
+                >.info {
+                    transform: translate(10px, 10px);
+                }
+            }
+        }
+
+        >.box {
+            position: relative;
+            width: 350px;
+            height: 300px;
+            margin: 10px;
+
+            >.ax {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 300px;
+                height: 250px;
+                z-index: 2;
+                transition: all 0.5s ease-in-out;
+                border-radius: 15px;
+
+                >img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 15px;
+                    padding: -25px;
+                    z-index: 3;
+
+
+
+                }
+
+            }
+
+            >.info {
+                position: absolute;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: end;
+                text-align: center;
+                background-color: rgba(137, 43, 226, 0.284);
+                border-radius: 15px;
+                z-index: 3;
+                flex-direction: row;
+                gap: 15px;
+
+
+                >h2 {
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    color: black;
+                    margin-bottom: 25px;
+
+
+
+                }
+
+                >ul {
+                    display: flex;
+                    gap: 10px;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+
+                    >li {
+                        width: 32px;
+                        height: 32px;
+                        border-radius: 70%;
+                        border: 1px solid black;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin-bottom: 5px;
+
+
+
+                        >a {
+                            >i {
+                                color: black;
+                                width: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
