@@ -7,7 +7,7 @@ The project was built using HTML, CSS, and Bootstrap, focusing on responsive lay
 
 📷 Preview | Screenshots
 <img width="1862" height="922" alt="Untitled" src="https://github.com/user-attachments/assets/4fd51dc6-4b84-4d4f-b493-7d4c93136afc" />
-<img width="1862" height="922" alt="Untitled2" src="https://github.com/user-attachments/assets/21d286b8-1b56-4fc5-8f48-b86efc48c5cf" />
+<img width="1894" height="865" alt="Untitled3" src="https://github.com/user-attachments/assets/cab22c72-e3a4-4ce1-b9ad-ed44e86a47d5" />
 
 
 ## ✨ Features
