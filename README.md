@@ -6,8 +6,8 @@ The project was built using HTML, CSS, and Bootstrap, focusing on responsive lay
 💻- [Demo Project] https://zahra-azizi-dev.github.io/first-Risponsive/
 
 📷 Preview | Screenshots
-![Untitled](https://github.com/user-attachments/assets/59817852-cb1a-467a-89a7-24dd839e3584)
 <img width="1888" height="940" alt="Untitled1" src="https://github.com/user-attachments/assets/03793924-851b-49b1-be21-dd06f1975e08" />
+<img width="1862" height="922" alt="Untitled" src="https://github.com/user-attachments/assets/4fd51dc6-4b84-4d4f-b493-7d4c93136afc" />
 
 
 ## ✨ Features
